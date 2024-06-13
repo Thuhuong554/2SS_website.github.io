@@ -4,12 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
-
-<!-- Header -->
-<header class="header">
+<header class="header bg-white">
     <div class="content header_top py-2">
         <div class="flex gap-4 items-center justify-between">
             <div class="address-hotline flex-1">
@@ -43,7 +40,7 @@
 
     <div class="relative bg-seashell h-64">
 
-        <nav class="bg-metalic_bronze bg-opacity-90 border border-dashed border-5 border-black py-1 relative z-10">
+        <nav class="bg-seashell bg-opacity-90 border border-dashed border-5 border-black relative py-1 z-10">
             <div class="content px-2 flex items-center justify-between">
                 <div class="flex text-center space-x-20 lg:space-x-40 flex-1">
                     <a href="index.html" class="text-lg font-semibold hover:underline">Home</a>
@@ -55,9 +52,11 @@
                     <a href="contact_us.html" class="text-lg font-semibold hover:underline">Contact</a>
                     <div class="relative" id="cartContainer">
                         <a href="cart.html" class="text-lg font-semibold relative" id="cartIcon">
-                            <img src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_cart-512.png" alt="Cart" class="h-6 w-6">
+                            <img src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_cart-512.png"
+                                alt="Cart" class="h-6 w-6">
                         </a>
-                        <div class="absolute top-8 right-0 w-72 bg-pink-100 border border-gray-300 shadow-lg hidden" id="cartPopup">
+                        <div class="absolute top-8 right-0 w-72 bg-pink-100 border border-gray-300 shadow-lg hidden"
+                            id="cartPopup">
                             <div id="popup-content">
                                 <!-- Cart popup content will be loaded here -->
                             </div>
@@ -69,60 +68,84 @@
 
         <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-7 z-50 flex flex-col items-center">
             <img src="img/Logo.png" alt="Logo" class="w-28 h-28 lg:w-40 lg:h-40 rounded-full">
-            <div class="relative mt-5">
-                <h1 class="text-2xl font-bold text-center">OUR BAKERY</h1>
-                <p class="text-lg text-center mt-40"><a href="index.html" class="hover:underline">Home</a> / <span
-                        class="text-red-600">Cart</span></p>
+        </div>
 
+        <title>Our Bakery</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            .banner {
+                background-image: url("https://images.unsplash.com/photo-1450862479751-84eeaf2fcca4?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+        <!-- Poster -->
+        <div class="relative banner h-64 flex items-end justify-center text-white">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 text-center pb-5">
+                <h1 class="text-4xl font-bold">OUR BAKERY</h1>
+                <nav class="mt-2">
+                    <a href="index.html" class="text-gray-400">Home</a> /
+                    <span class="text-red-500">Checkout</span>
+                </nav>
             </div>
         </div>
-        
+        <!-- Poster end -->
     </div>
 
 </header>
 
-<body>
+<body class="bg-seashell">
+    <!-- Header -->
 
-    <!-- Cart Section -->
-    <div class="container mx-auto py-10">
-        <div class="bg-gray-100 p-8 rounded-md">
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white w-full text-center mx-auto">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-4 border-b border-gray-300">Product</th>
-                            <th class="py-2 px-4 border-b border-gray-300">Price</th>
-                            <th class="py-2 px-4 border-b border-gray-300">Quantity</th>
-                            <th class="py-2 px-4 border-b border-gray-300">Total</th>
-                            <th class="py-2 px-4 border-b border-gray-300">Remove</th>
-                        </tr>
-                    </thead>
-                    <tbody id="cart-items">
-                        <!-- Dynamic Rows -->
-                    </tbody>
-                </table>
+    <div class="content p-6 my-10">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.89319300791!2d108.21766927553684!3d16.07103133938883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218314984c6bd%3A0xb53a043f246ab8cb!2zMTU4YSBMw6ogTOG7o2ksIEjhuqNpIENow6J1IDEsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1718305612037!5m2!1sen!2s"
+            width="1436" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form class="pt-10 space-y-4">
+            <div>
+                <label for="firstName" class="block text-gray-700 font-semibold">First name <span
+                        class="text-red-500">*</span></label>
+                <input type="text" id="firstName" name="firstName"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
             </div>
-            <div class="content font-semibold py-5">
-                Total Price: <span id="total-price">0 VND</span>
+            <div>
+                <label for="email" class="block text-gray-700 font-semibold">Email <span
+                        class="text-red-500">*</span></label>
+                <input type="email" id="email" name="email"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
             </div>
-            <div class="content flex justify-between items-center mt-6">
-                <div>
-                    <input type="text" placeholder="Promotion code" class="p-2 border border-gray-300 rounded-md">
-                    <button class="p-2 bg-blue-500 text-white rounded-md">Apply</button>
-                </div>
-                <div>
-                    <button class="p-2 bg-gray-300 text-black rounded-md" onclick="continueShopping()">Continue
-                        Shopping</button>
-                </div>
-                
-                <div>
-                    <button class="p-2 bg-green-500 text-white rounded-md" onclick="location.href='checkout.html'">Checkout</button>
-                </div>
-                
+            <div>
+                <label for="phone" class="block text-gray-700 font-semibold">Phone <span
+                        class="text-red-500">*</span></label>
+                <input type="tel" id="phone" name="phone"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
             </div>
-        </div>
+            <div>
+                <label for="product" class="block text-gray-700 font-semibold">Purchases/Interested product <span
+                        class="text-red-500">*</span></label>
+                <select id="product" name="product" class="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                    required>
+                    <option value="">Select a product</option>
+                    <option value="Product 1">Product 1</option>
+                    <option value="Product 2">Product 2</option>
+                    <option value="Product 3">Product 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="message" class="block text-gray-700 font-semibold">Text your messages here <span
+                        class="text-red-500">*</span></label>
+                <textarea id="message" name="message" rows="4"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required></textarea>
+            </div>
+            <div class="flex justify-center pt-5">
+                <button type="submit"
+                    class="w-500 bg-red-400 hover:bg-red-900 text-white py-2 px-4 text-xl rounded-md transition duration-300">Submit</button>
+            </div>
+        </form>
     </div>
-
     <!-- Footer -->
     <footer>
         <div class="footer bg-black text-seashell py-16">
@@ -206,14 +229,9 @@
             &copy; 2024 Two worms Bakery. All rights reserved.
         </div>
     </footer>
-
-
-    <script type="module" src="/src/scripts/application.js"></script>
-    <script src="/src/scripts/add_to_cart.js"></script>
-    <script src="/src/scripts/cart_popup.js"></script>
-    <script src="/src/scripts/icon_search_hover.js"></script>
-
-
 </body>
+<script type="module" src="/src/scripts/application.js"></script>
+<script src="/src/scripts/cart_popup.js"></script>
+<script src="/src/scripts/icon_search_hover.js"></script>
 
 </html>
