@@ -196,7 +196,7 @@ We will have 6 main pages:
             </tr>
             <tr>
                 <td class="border border-gray-400 px-4 py-2">About us</td>
-                <td class="border border-gray-400 px-4 py-2" rowspan="9">Week 2</td>
+                <td class="border border-gray-400 px-4 py-2" rowspan="13">Week 2</td>
                 <td class="border border-gray-400 px-4 py-2">Create complete page</td>
                 <td class="border border-gray-400 px-4 py-2">
                 Design all UI and javascript in About us page
@@ -232,31 +232,92 @@ We will have 6 main pages:
                     <img src="img_for_Readme/Detail_Menu/banner.png">
                     <img src="img_for_Readme/Detail_homepage/footer.png">
                 </td>
-                <td class="border border-gray-400 px-4 py-2">To do</td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
             </tr>
+                <td class="border border-gray-400 px-4 py-2">Thank you page</td>
+                <td class="border border-gray-400 px-4 py-2">Create complete page</td>
+                 <td class="border border-gray-400 px-4 py-2">
+                    <img src="img_for_Readme/General_wireframe/Thank you.png">
+                </td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
+                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
+            </tr>
+             <tr>
+                <td class="border border-gray-400 px-4 py-2">Database</td>
+                <td class="border border-gray-400 px-4 py-2">Create database</td>
+                <td class="border border-gray-400 px-4 py-2"></td>
+                 <td class="border border-gray-400 px-4 py-2"></td>
+                <td class="border border-gray-400 px-4 py-2">In progress</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong and Van Nhi</td>
+            </tr>
             <tr>
-                <td class="border border-gray-400 px-4 py-2">Sort and Product grid</td>
+                <td class="border border-gray-400 px-4 py-2" rowspan="2">Checkout</td>
+                <td class="border border-gray-400 px-4 py-2">Form collect iniormation</td>
                 <td class="border border-gray-400 px-4 py-2">
-                <br>Show product in grid list</br>
-                <br>Sort by</br>
+                <br>Form for customer to collect shipping information</br>
                 </td>
                  <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_Menu/sort_and_product_grid.png">
+                    <img src="img_for_Readme/Detail_checkout/form.png">
+                 </td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-400 px-4 py-2">Billing</td>
+                <td class="border border-gray-400 px-4 py-2">
+                <br>Show customer's bill after add voucher, shipping,etc</br>
+                </td>
+                 <td class="border border-gray-400 px-4 py-2">
+                    <img src="img_for_Readme/Detail_checkout/billing.png">
+                 </td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-400 px-4 py-2" rowspan="3">Contact us</td>
+                <td class="border border-gray-400 px-4 py-2">Map</td>
+                <td class="border border-gray-400 px-4 py-2">
+                <br>Embeded map</br>
+                </td>
+                 <td class="border border-gray-400 px-4 py-2">
+                    <img src="img_for_Readme/Detail_contact/map.png">
+                 </td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
+                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-400 px-4 py-2">Form</td>
+                <td class="border border-gray-400 px-4 py-2">
+                <br>Form to collect customer's message</br>
+                </td>
+                 <td class="border border-gray-400 px-4 py-2">
+                    <img src="img_for_Readme/Detail_contact/form_message.png">
+                 </td>
+                <td class="border border-gray-400 px-4 py-2">Done</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-400 px-4 py-2">Product grid</td>
+                <td class="border border-gray-400 px-4 py-2">
+                <br>Show product in grid list</br>
+                </td>
+                 <td class="border border-gray-400 px-4 py-2">
+                    <img src="img_for_Readme/Detail_Menu/product_grid.png">
                 </td>
                 <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
             </tr>
             <tr>
                 <td class="border border-gray-400 px-4 py-2">Filter for better search</td>
                 <td class="border border-gray-400 px-4 py-2">
                 <br>Search by keyword</br>
                 <br>Filter category</br>
-                <br>Filter price</br>
-                <br>Filter tag</br>
+                <br>Sort by price and alphabet</br>
                 </td>
                  <td class="border border-gray-400 px-4 py-2">
                     <img src="img_for_Readme/Detail_Menu/Filter_to_search.png">
+                    <img src="img_for_Readme/Detail_Menu/sort.png">
                 </td>
                 <td class="border border-gray-400 px-4 py-2">To do</td>
                 <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
@@ -271,90 +332,40 @@ We will have 6 main pages:
                 <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
             </tr>
             <tr>
-                <td class="border border-gray-400 px-4 py-2">Discount Slideshow</td>
+                <td class="border border-gray-400 px-4 py-2">product Information hover</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
                  <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_Menu/discount_slide.png">
+                    <img src="img_for_Readme/General_wireframe/Cake_infor_hover in Menu.png">
                 </td>
                 <td class="border border-gray-400 px-4 py-2">To do</td>
                 <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
             </tr>
             <tr>
-                <td class="border border-gray-400 px-4 py-2">Thank you page</td>
-                <td class="border border-gray-400 px-4 py-2">Create complete page</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/General_wireframe/Thank you.png">
-                </td>
+                <td class="border border-gray-400 px-4 py-2" rowspan="2">Week 3</td>
+                <td class="border border-gray-400 px-4 py-2">Fix UI</td>
+                <td class="border border-gray-400 px-4 py-2">Fix all UI follow feedback</td>
+                <td class="border border-gray-400 px-4 py-2"></td>
                 <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong & Van Nhi</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-400 px-4 py-2">Implement backend, server-side</td>
+                <td class="border border-gray-400 px-4 py-2"></td>
+                <td class="border border-gray-400 px-4 py-2"></td>
+                <td class="border border-gray-400 px-4 py-2"></td>
+                <td class="border border-gray-400 px-4 py-2">To do</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong & Van Nhi</td>
             </tr>
              <tr>
-                <td class="border border-gray-400 px-4 py-2">Database</td>
-                <td class="border border-gray-400 px-4 py-2">Create database</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
-                 <td class="border border-gray-400 px-4 py-2"></td>
-                <td class="border border-gray-400 px-4 py-2">In progress</td>
-                <td class="border border-gray-400 px-4 py-2">Thu Huong and Van Nhi</td>
-            </tr>
-            <tr>
-                <td class="border border-gray-400 px-4 py-2" rowspan="2">Checkout</td>
-                <td class="border border-gray-400 px-4 py-2" rowspan="5">Week 3</td>
-                <td class="border border-gray-400 px-4 py-2">Form collect iniormation</td>
-                <td class="border border-gray-400 px-4 py-2">
-                <br>Form for customer to collect shipping information</br>
-                </td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_checkout/form.png">
-                 </td>
+                <td class="border border-gray-400 px-4 py-2" >Week 4</td>
+                <td class="border border-gray-400 px-4 py-2">Finish the project</td>
+                <td class="border border-gray-400 px-4 py-2">Fix UI (if necessary) and server-side</td>
+                <td class="border border-gray-400 px-4 py-2"></td>
                 <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+                <td class="border border-gray-400 px-4 py-2">Thu Huong & Van Nhi</td>
             </tr>
-            <tr>
-                <td class="border border-gray-400 px-4 py-2">Billing</td>
-                <td class="border border-gray-400 px-4 py-2">
-                <br>Show customer's bill after add voucher, shipping,etc</br>
-                </td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_checkout/billing.png">
-                 </td>
-                <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
-            </tr>
-            <tr>
-                <td class="border border-gray-400 px-4 py-2" rowspan="3">About us</td>
-                <td class="border border-gray-400 px-4 py-2">Map</td>
-                <td class="border border-gray-400 px-4 py-2">
-                <br>Embeded map</br>
-                </td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_contact/map.png">
-                 </td>
-                <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
-            </tr>
-            <tr>
-                <td class="border border-gray-400 px-4 py-2">Form</td>
-                <td class="border border-gray-400 px-4 py-2">
-                <br>Form to collect customer's message</br>
-                </td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_contact/form_message.png">
-                 </td>
-                <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
-            </tr>
-            <tr>
-                <td class="border border-gray-400 px-4 py-2">Some information box</td>
-                <td class="border border-gray-400 px-4 py-2">
-                <br>Maybe some images to advertise</br>
-                </td>
-                 <td class="border border-gray-400 px-4 py-2">
-                    <img src="img_for_Readme/Detail_contact/box_information.png">
-                 </td>
-                <td class="border border-gray-400 px-4 py-2">To do</td>
-                <td class="border border-gray-400 px-4 py-2">Van Nhi</td>
-            </tr>   
         </tbody>
     </table>
 </div>
